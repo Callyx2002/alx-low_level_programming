@@ -1,4 +1,4 @@
-#!/bin/baah
+#!/bin/bash
 #include <stdio.h>
 main (void) 
 {
