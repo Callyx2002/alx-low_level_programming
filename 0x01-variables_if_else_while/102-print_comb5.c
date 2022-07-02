@@ -8,7 +8,6 @@
 int main(void)
 {
 	int a, b;
-	
 	for (a = 0; a <= 98; a++)
 	{
 		for (b = 0; b <= 99; b++)
@@ -21,7 +20,6 @@ int main(void)
 
 			if (a == 98 && b == 99)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
