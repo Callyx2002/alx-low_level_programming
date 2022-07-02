@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int a, d, c, d;
+	int a, b, c, d;
 
 	for (a = 48; a <= 57; a++)
 	{
-		for (b = 48; a <= 7; b++)
+		for (b = 48; b <= 7; b++)
 		{
 			for (c = 48; c <= 7; c++)
 			{
-				for (d = 48; c <= 57; d++)
+				for (d = 48; d <= 57; d++)
 				{
 					if (((c + d) > (a + b) && c >= a) || a < c)
 					{
