@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Ent4y po8nt
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -16,7 +16,7 @@ int main(void)
 	
 	for (letter = 'a'; letter < 'f'; letter++)
 	{
-		putchar(letter)
+		putchar(letter);
 	}
 
 	putchar('\n');
