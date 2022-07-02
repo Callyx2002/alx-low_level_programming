@@ -8,6 +8,7 @@
 int main(void)
 {
 	int n, x;
+
 	n = 48;
 	x = 48;
 
