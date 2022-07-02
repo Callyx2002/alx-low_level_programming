@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main -Entry point
  *
@@ -11,7 +12,7 @@ int main(void)
 
 	for (a = 0; a <= 98; a++)
 	{
-		for (b = 1; b <= 99; b++)
+		for (b = 0; b <= 99; b++)
 		{
 			putchar((a / 10) + '0');
 			putchar((a % 10) + '0');
