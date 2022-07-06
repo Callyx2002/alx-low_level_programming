@@ -1,12 +1,13 @@
 #include "main.h"
-/** 
- *  jack_bauer - prints the 9 times table
- *  Return: no return
+/**
+ * jack_bauer - prints the 9 times table
+ * Return: no return
  *
  */
 void jack_bauer(void)
 {
 	int i, j;
+
 	for (i = 0; i < 24; i++)
 	{
 		for (j = 0; j < 60; j++)
@@ -21,7 +22,7 @@ void jack_bauer(void)
 				_putchar((i / 10) + '0');
 				_putchar((i % 10) + '0');
 			}
-			if (j < 10);
+			if (j < 10)
 			{
 				_putchar(':');
 				_putchar('0');
