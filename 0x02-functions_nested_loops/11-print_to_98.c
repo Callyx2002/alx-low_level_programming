@@ -12,12 +12,13 @@
  *
  *    * Return: Always 0.
  *
- *     */
+ */
 void print_to_98(int n)
 {
 	if (n <= 98)
 	{
 		int i;
+
 		i = n;
 		while (i < 98)
 		{
@@ -28,6 +29,7 @@ void print_to_98(int n)
 	else
 	{
 		int i;
+
 		i = n;
 		while (i > 98)
 		{
