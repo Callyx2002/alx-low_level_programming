@@ -20,5 +20,5 @@ int main(void)
 			sum += next;
 	}
 	printf("%i\n", sum);
-	retutn (0);
+	return (0);
 }
