@@ -9,13 +9,12 @@ int main(void)
 	int a = 0;
 	int z = 0;
 
-	while (z < 1024)
+	for (a = 1; a < 1024; a++)
 	{
 		if ((a % 3 == 0) || (a % 5 == 0))
 		{
 			z += a;
 		}
-		a++;
 	}
 	printf("%d\n", z);
 	return (0);
