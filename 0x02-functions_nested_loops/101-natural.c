@@ -7,11 +7,11 @@
 int main(void)
 {
 	int a = 0;
-	int z =0;
+	int z = 0;
 
 	while (z < 1024)
 	{
-		if ((a % 3 == 0) || (z % 5 == 0))
+		if ((a % 3 == 0) || (a % 5 == 0))
 		{
 			z += a;
 		}
