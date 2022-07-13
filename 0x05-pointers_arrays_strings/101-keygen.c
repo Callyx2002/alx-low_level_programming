@@ -24,7 +24,7 @@ int main(void)
 		if (sum < GRAPH_MIN)
 		{
 			c -= (GRAPH_MIN - sum);
-			sum = GRAPH_MIN
+			sum = GRAPH_MIN;
 		}
 		putchar(c);
 
