@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <rime.h>
+#include <time.h>
 
 #define GRAPH_MIN 33
 #define GRAPH_MAX 126
