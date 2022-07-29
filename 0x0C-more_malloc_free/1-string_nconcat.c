@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * string_nconcat - concatenate two strings
  * @s1: the first string
