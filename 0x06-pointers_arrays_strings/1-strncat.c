@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ * _strncat - adds two strings
+ * @dest: destination string
+ * @src: source string
+ * @n: number of character to be added
+ * Return: dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
